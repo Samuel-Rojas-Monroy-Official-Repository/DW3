@@ -9,6 +9,7 @@ jalau\cis\userapi\UserApiApplication.class
 jalau\cis\userapi\security\JwtUtil.class
 jalau\cis\userapi\service\impl\UserServiceImpl.class
 jalau\cis\userapi\exception\ErrorResponse.class
+jalau\cis\userapi\config\DataInitializer.class
 jalau\cis\userapi\dto\UserResponse.class
 jalau\cis\userapi\exception\GlobalExceptionHandler.class
 jalau\cis\userapi\repository\UserRepository.class

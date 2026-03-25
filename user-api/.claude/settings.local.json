@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn spring-boot:run)",
+      "Bash(netstat -ano)",
+      "Bash(mysql --version)",
+      "Bash(mariadb --version)",
+      "Bash(sc query:*)",
+      "Bash(sc queryex:*)",
+      "Bash(reg query:*)",
+      "Bash(powershell -Command \"\\(Get-Service MariaDB | Select-Object -ExpandProperty BinaryPathName\\)\")",
+      "Bash(powershell -Command \"Get-WmiObject Win32_Service -Filter \\\\\"Name='MariaDB'\\\\\" | Select-Object PathName\")",
+      "Bash(curl:*)",
+      "Bash(mysql:*)",
+      "Bash(taskkill /F /IM java.exe)",
+      "Bash(taskkill //F //IM java.exe)"
+    ]
+  }
+}
